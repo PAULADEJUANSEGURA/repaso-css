@@ -1,0 +1,50 @@
+body {
+    background-color: burlywood;
+}
+
+.flex-container {
+    display: flex;
+    border: 1px solid red;
+    background-color: orange;
+    padding: 20px;
+}
+
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+.box {
+    border: 1px solid blue;
+    background-color: antiquewhite;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
